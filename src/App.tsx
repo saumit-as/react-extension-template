@@ -19,7 +19,7 @@ function App() {
     }
   );
   return (
-    <div className="App">
+    <div className="bg-red-950">
       <textarea
         onChange={(e) => {
           setPayload(e.target.value);
